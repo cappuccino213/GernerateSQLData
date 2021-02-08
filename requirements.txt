@@ -1,0 +1,6 @@
+chardet==4.0.0
+Faker==6.0.0
+pymssql @ file:///E:/python/GenerateData/file/pymssql-2.1.5-cp39-cp39-win_amd64.whl
+python-dateutil==2.8.1
+six==1.15.0
+text-unidecode==1.3
