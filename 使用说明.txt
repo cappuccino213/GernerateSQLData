@@ -1,0 +1,10 @@
+1.安装依赖环境 pip intall -r requirements.txt
+1.1 其中pymssql需要单独安装因为官方没有python3.9对应的mssql包，需要用.whl单独安装
+命令：pip install pymssql-2.1.5-cp39-cp39-win_amd64.whl的路径（file目录下）
+
+2.配置文件config.ini进行配置
+
+3.做表字段列的赋值generateSqlData.py中函数filed_value函数的kv字段
+3.1注意config.ini表的字段必须在kv中必须有，不然插入时会找不到
+
+4.运行excuteSchedule.py的main函数

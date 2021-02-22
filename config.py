@@ -46,3 +46,11 @@ class Config:
 
 
 cfg = Config()
+
+if __name__ == '__main__':
+    cfg = Config()
+    c = cfg.get('database','ExamRequest')
+    if "\n" in c:
+        print("True")
+        c=c.replace("\n","")
+        print(c)

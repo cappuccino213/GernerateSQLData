@@ -8,6 +8,10 @@
 # @Contact : yeahcheung213@163.com
 from datetime import datetime, timedelta
 
+"""dict操作相关"""
+
+
+
 """日期/时间相关"""
 
 
@@ -61,4 +65,5 @@ def ger_dates(amount, start_date, end_date):
 if __name__ == "__main__":
     # print(is_date('2021-13-29'))
     # print(date_diff('2021-2-28', '2021-1-29'))
-    print(ger_dates(4, '2021-02-28', '2021-03-02'))
+    d = ger_dates(4, '2021-02-28', '2021-03-02')
+    print(type(d[0]))
